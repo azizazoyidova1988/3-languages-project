@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-14 12:14+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: .\mysite\settings.py:110
+msgid "English"
+msgstr ""
+
+#: .\mysite\settings.py:111
+msgid "Uzbek"
+msgstr "Har doim yaxshilikni tanlang"
+
+#: .\mysite\settings.py:112
+msgid "Russian"
+msgstr ""
+
+#: .\restaraunt\views.py:23
+msgid "food"
+msgstr "FOOD"
+
+#: .\restaraunt\views.py:24
+msgid "home"
+msgstr "Home"
+
+#: .\restaraunt\views.py:25
+msgid "about"
+msgstr "About"
+
+#: .\restaraunt\views.py:26
+msgid "menu"
+msgstr "Menu"
+
+#: .\restaraunt\views.py:27
+msgid "expert"
+msgstr "Expert"
+
+#: .\restaraunt\views.py:28
+msgid "testimonial"
+msgstr "Testimonial"
+
+#: .\restaraunt\views.py:29
+msgid "contact"
+msgstr "Contact"
+
+#: .\restaraunt\views.py:30
+msgid "WELCOME_TEXT"
+msgstr "Always choose good"
+
+#: .\restaraunt\views.py:31
+msgid "WELCOME_DESC"
+msgstr ""
+"Italian restaurants are traditional and world famous for their pizza and "
+"spaghetti."
+
+#: .\restaraunt\views.py:32
+msgid "TITLE_3"
+msgstr "Our Menu"
+
+#: .\restaraunt\views.py:33
+msgid "TITLE_4"
+msgstr "Our Kitchen Expert"
+
+#: .\restaraunt\views.py:34
+msgid "TITLE_5"
+msgstr "They About Us"
+
+#: .\restaraunt\views.py:35
+msgid "TITLE_6"
+msgstr "Contact Us"
+
+#: .\restaraunt\views.py:36
+msgid "NAV2_DESC"
+msgstr ""
+"Our priorities are freshness and quality of ingredients, variety of "
+"fillings, low prices and attention to the requirements  of our guests. We "
+"have a lot of people making orders every day. We are trying to increase both "
+"the number of visitors and the number of affiliates. With every dish we "
+"prepare, we uncover the details of our own unique recipes and look for the "
+"perfect value for money to remain your favorite brand."
+
+#: .\restaraunt\views.py:37
+msgid "NAV3_DESC"
+msgstr "Our menus are just for you and your loved ones!"
+
+#: .\restaraunt\views.py:38
+msgid "NAV4_DESC"
+msgstr "The taste of our experts will amaze you!"
+
+#: .\restaraunt\views.py:39
+msgid "NAV5_DESC"
+msgstr "What do famous people say about us?"
+
+#: .\restaraunt\views.py:40
+msgid "NAV6_DESC"
+msgstr "You can leave your feedback"
+
+#: .\restaraunt\views.py:41
+msgid "SEND_MESS"
+msgstr "Send Message"
+
+#: .\restaraunt\views.py:42
+msgid "NAME"
+msgstr "Name"
+
+#: .\restaraunt\views.py:43
+msgid "EMAIL"
+msgstr "Email"
+
+#: .\restaraunt\views.py:44
+msgid "SEND"
+msgstr "Send"
+
+#: .\restaraunt\views.py:45
+msgid "MESSAGE"
+msgstr "Message"
+
+#: .\restaraunt\views.py:46
+msgid "REST"
+msgstr "Restaraunt in Italy"
+
+#: .\restaraunt\views.py:47
+msgid "ALL"
+msgstr "All Right Reserved"

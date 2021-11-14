@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+{% load static %}
+{% load i18n %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PizzaMania</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="{% static 'restaraunt/css/style.css' %}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">{{ nav }}<span>.</span></a>
+                {% get_current_language as LANGUAGE_CODE %}
+                {% get_available_languages as LANGUAGES %}
+                {% get_language_info_list for  LANGUAGES as languages %}
+                {% for lang in languages %}
+                <a href="/{{lang.code}}/" >{{ lang.name_local }}</a>
+                {% endfor %}
+                {% if LANGUAGE_CODE == 'uz' %}
+                <span> Uzbekcha</span>
+                {% elif LANGUAGE_CODE == 'en' %}
+                <span> English</span>
+                {% elif LANGUAGE_CODE == 'ru' %}
+                <span> Русский</span>
+                {% endif %}
+        <div class="menuToggle" onclick="toggleMenu();"></div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleMenu();">{{nav1}}</a></li>
+            <li><a href="#about" onclick="toggleMenu();">{{nav2}}</a></li>
+            <li><a href="#menu" onclick="toggleMenu();">{{nav3}}</a></li>
+            <li><a href="#expert" onclick="toggleMenu();">{{nav4}}</a></li>
+            <li><a href="#testimonials" onclick="toggleMenu();">{{nav5}}</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">{{nav6}}</a></li>
+        </ul>
+    </header>
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>{{ welcome }}</h2>
+            <p>{{ welcome_desc }}</p>
+            <a href="#menu" class="btn">{{title3}}</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="col50">
+                <h2 class="titleText"><span>{{ nav2 }}</span></h2>
+                <p>{{nav2_desc}}</p>
+            </div>
+            <div class="col50">
+                <div class="imgBx" data-aos="fade-up" data-aos-duration="3000">>
+                    <img src="{% static 'restaraunt/img/img1.jpg' %}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="title">
+            <h2 class="titleText"> <span>{{title3}}</span></h2>
+            <p>{{nav3_desc}}</p>
+        </div>
+        <div class="content">
+            {% for pr in products%}
+            <div class="box" data-aos="zoom-out-up">
+                <div class="imgBx"><img src='/media/{{ pr.image }}' alt="">
+                </div>
+
+                <div class="text">
+                    <h3>{{pr.name}}</h3>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+    </section>
+
+    <section class="expert" id="expert">
+        <div class="title">
+            <h2 class="titleText"><span>{{title4}}</span></h2>
+            <p>{{nav4_desc}}</p>
+        </div>
+        <div class="content">
+            {% for ex in experts %}
+            <div class="box" data-aos="fade-right">
+                <div class="imgBx">
+                    <img src="/media/{{ex.image}}" alt="">
+                </div>
+                <div class="text">
+                    <h3>{{ex.name}}</h3>
+                </div>
+            </div>
+            {% endfor %}
+
+
+        </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+        <div class="title white">
+            <h2 class="titleText"> <span>{{title5}}</span></h2>
+            <p>{{nav5_desc}}</p>
+        </div>
+        <div class="content">
+            {% for test in testimonials %}
+            <div class="box" data-aos="zoom-in-left" data-aos-duration="700">
+                <div class="imgBx">
+                    <img src="/media/{{test.image}}">
+                </div>
+                <div class="text">
+                    <p>{{test.description}}</p>
+                    <h3>{{test.name}}</h3>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <section class="contact" id="contact" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="title">
+            <h2 class="titleText"><span>{{title6}}</span></h2>
+            <p>{{nav6_desc}}</p>
+        </div>
+        <div class="contactForm" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h3>{{send_mess}}</h3>
+            <form action="#" method="post">
+        {% csrf_token %}
+            <div class="inputBox">
+                <input type="text" name="name" placeholder="{{name}}">
+            </div>
+            <div class="inputBox">
+                <input type="email" name="email" placeholder="{{email}}">
+            </div>
+            <div class="inputBox">
+                <textarea name="message" placeholder="{{message}}"></textarea>
+            </div>
+            <div class="inputBox">
+                <input type="submit"  value="{{send}}">
+            </div>
+            </form>
+        </div>
+    </section>
+    <div class="copyrightText">
+        <p> 2021 <a href="#">{{rest}}</a> {{all}}</p>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="{% static 'restaraunt//js/main.js' %}"></script>
+</body>
+
+</html>

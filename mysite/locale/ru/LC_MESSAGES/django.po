@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-14 12:14+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
+"%100>=11 && n%100<=14)? 2 : 3);\n"
+
+#: .\mysite\settings.py:110
+msgid "English"
+msgstr ""
+
+#: .\mysite\settings.py:111
+msgid "Uzbek"
+msgstr ""
+
+#: .\mysite\settings.py:112
+msgid "Russian"
+msgstr ""
+
+#: .\restaraunt\views.py:23
+msgid "food"
+msgstr "ЕДА"
+
+#: .\restaraunt\views.py:24
+msgid "home"
+msgstr "Главний"
+
+#: .\restaraunt\views.py:25
+msgid "about"
+msgstr "О нас"
+
+#: .\restaraunt\views.py:26
+msgid "menu"
+msgstr "Меню"
+
+#: .\restaraunt\views.py:27
+msgid "expert"
+msgstr "Эксперт"
+
+#: .\restaraunt\views.py:28
+msgid "testimonial"
+msgstr "Отзыв"
+
+#: .\restaraunt\views.py:29
+msgid "contact"
+msgstr "Контакт"
+
+#: .\restaraunt\views.py:30
+msgid "WELCOME_TEXT"
+msgstr "Всегда выбирайте хорошее"
+
+#: .\restaraunt\views.py:31
+msgid "WELCOME_DESC"
+msgstr ""
+"Итальянские рестораны являются традиционными и всемирно известными своей "
+"пиццей и спагетти"
+
+#: .\restaraunt\views.py:32
+msgid "TITLE_3"
+msgstr "Наше меню"
+
+#: .\restaraunt\views.py:33
+msgid "TITLE_4"
+msgstr "Наш эксперт по кухне"
+
+#: .\restaraunt\views.py:34
+msgid "TITLE_5"
+msgstr "Они о нас"
+
+#: .\restaraunt\views.py:35
+msgid "TITLE_6"
+msgstr "Связаться с нами"
+
+#: .\restaraunt\views.py:36
+msgid "NAV2_DESC"
+msgstr ""
+"Наши приоритеты - свежесть и качество ингредиентов, разнообразие начинок,"
+"низкие цены и внимание к требованиям наших гостей. У нас много людей делают "
+"заказы каждый день. Мы стараемся увеличить как количество посетителей, так и "
+"количество филиалов. С каждым блюдом, которое мы готовим, мы раскрываем "
+"детали наших собственных уникальных рецептов и ищем  идеальное соотношение "
+"цены и качества, чтобы оставаться вашим любимым брендом."
+
+#: .\restaraunt\views.py:37
+msgid "NAV3_DESC"
+msgstr "Наше меню только для вас и ваших близких!"
+
+#: .\restaraunt\views.py:38
+msgid "NAV4_DESC"
+msgstr "Вкус наших специалистов поразит вас!"
+
+#: .\restaraunt\views.py:39
+msgid "NAV5_DESC"
+msgstr "Что говорят о нас  известные люди?"
+
+#: .\restaraunt\views.py:40
+msgid "NAV6_DESC"
+msgstr "Вы можете оставить свой отзыв "
+
+#: .\restaraunt\views.py:41
+msgid "SEND_MESS"
+msgstr "Отправить сообщение"
+
+#: .\restaraunt\views.py:42
+msgid "NAME"
+msgstr "Имя"
+
+#: .\restaraunt\views.py:43
+msgid "EMAIL"
+msgstr "Эл. адрес"
+
+#: .\restaraunt\views.py:44
+msgid "SEND"
+msgstr "Отправить"
+
+#: .\restaraunt\views.py:45
+msgid "MESSAGE"
+msgstr "Cообщение"
+
+#: .\restaraunt\views.py:46
+msgid "REST"
+msgstr "Ресторан в Италии"
+
+#: .\restaraunt\views.py:47
+msgid "ALL"
+msgstr "Все права защищены"

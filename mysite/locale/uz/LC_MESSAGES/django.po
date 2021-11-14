@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-14 12:14+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\mysite\settings.py:110
+msgid "English"
+msgstr ""
+
+#: .\mysite\settings.py:111
+msgid "Uzbek"
+msgstr ""
+
+#: .\mysite\settings.py:112
+msgid "Russian"
+msgstr ""
+
+#: .\restaraunt\views.py:23
+msgid "food"
+msgstr "TAOM"
+
+#: .\restaraunt\views.py:24
+msgid "home"
+msgstr "Asosiy"
+
+#: .\restaraunt\views.py:25
+msgid "about"
+msgstr "Biz haqimizda"
+
+#: .\restaraunt\views.py:26
+msgid "menu"
+msgstr "Menyu"
+
+#: .\restaraunt\views.py:27
+msgid "expert"
+msgstr "Ekspertlar"
+
+#: .\restaraunt\views.py:28
+msgid "testimonial"
+msgstr "Tavsiflar"
+
+#: .\restaraunt\views.py:29
+msgid "contact"
+msgstr "Contact"
+
+#: .\restaraunt\views.py:30
+msgid "WELCOME_TEXT"
+msgstr "Har doim yaxshilikni tanlang"
+
+#: .\restaraunt\views.py:31
+msgid "WELCOME_DESC"
+msgstr ""
+"Italiya restarantlari an'anaviy bo'lib, dunyoda o'zining pitsa va "
+"spagettilari bilan mashhurdir"
+
+#: .\restaraunt\views.py:32
+msgid "TITLE_3"
+msgstr "Bizning menyu"
+
+#: .\restaraunt\views.py:33
+msgid "TITLE_4"
+msgstr "Bizning mutaxassislarimiz"
+
+#: .\restaraunt\views.py:34
+msgid "TITLE_5"
+msgstr "Ular biz haqimizda"
+
+#: .\restaraunt\views.py:35
+msgid "TITLE_6"
+msgstr "Bizning manzilimiz"
+
+#: .\restaraunt\views.py:36
+msgid "NAV2_DESC"
+msgstr ""
+"Bizning ustuvor yo'nalishlarimiz - ingredientlarning yangiligi va sifati, "
+"turli xil to'ldirishlar,arzon narxlar va mehmonlarimizning talablariga "
+"e'tibor.Bizda har kuni ko'plab odamlar buyurtma berishadi.Biz ham tashrif "
+"buyuruvchilar sonini, ham filiallar sonini oshirishga harakat qilmoqdamiz. "
+"Biz tayyorlagan har bir taom bilan biz o'zimizning o'ziga xos "
+"retseptlarimizning tafsilotlarini aniqlaymiz va sizning sevimli brendingiz "
+"bo'lishda davom etish uchun narx va sifatning mukammal muvozanatini "
+"qidiramiz."
+
+#: .\restaraunt\views.py:37
+msgid "NAV3_DESC"
+msgstr "Bizning menyular faqat siz va sizning yaqinlaringiz uchundir!"
+
+#: .\restaraunt\views.py:38
+msgid "NAV4_DESC"
+msgstr "Mutaxassislarimiz didi sizni hayratda qoldiradi!"
+
+#: .\restaraunt\views.py:39
+msgid "NAV5_DESC"
+msgstr "Biz haqimizda mashhurlar nima deyishadi?"
+
+#: .\restaraunt\views.py:40
+msgid "NAV6_DESC"
+msgstr "Fikr-mulohazalaringizni qoldirishingiz mumkin "
+
+#: .\restaraunt\views.py:41
+msgid "SEND_MESS"
+msgstr "Xabar jo'natish"
+
+#: .\restaraunt\views.py:42
+msgid "NAME"
+msgstr "Ism sharif"
+
+#: .\restaraunt\views.py:43
+msgid "EMAIL"
+msgstr "Email"
+
+#: .\restaraunt\views.py:44
+msgid "SEND"
+msgstr "Yuborish"
+
+#: .\restaraunt\views.py:45
+msgid "MESSAGE"
+msgstr "Xabar"
+
+#: .\restaraunt\views.py:46
+msgid "REST"
+msgstr "Italiyadagi restoran"
+
+#: .\restaraunt\views.py:47
+msgid "ALL"
+msgstr "Barcha huquqlar himoyalangan. "
